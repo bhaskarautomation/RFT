@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><launchConfiguration type="com.ibm.rational.test.ft.rftScript">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Member_Enrollment/Large_group_Member.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="false"/>
+<listAttribute key="org.eclipse.jdt.launching.CLASSPATH">
+<listEntry value="C:\Users\AG18664\Desktop\EnB\Apache POI\poi-3.16\poi-3.16.jar"/>
+<listEntry value="C:\Users\AG18664\Desktop\EnB\Apache POI\poi-3.16\poi-examples-3.16.jar"/>
+<listEntry value="C:\Users\AG18664\Desktop\EnB\Apache POI\poi-3.16\poi-excelant-3.16.jar"/>
+<listEntry value="C:\Users\AG18664\Desktop\EnB\Apache POI\poi-3.16\poi-ooxml-3.16.jar"/>
+<listEntry value="C:\Users\AG18664\Desktop\EnB\Apache POI\poi-3.16\poi-ooxml-schemas-3.16.jar"/>
+<listEntry value="C:\Users\AG18664\Desktop\EnB\Apache POI\poi-3.16\poi-scratchpad-3.16.jar"/>
+<listEntry value="C:\Users\AG18664\Desktop\EnB\Apache POI\poi-3.16\lib\commons-codec-1.10.jar"/>
+<listEntry value="C:\Users\AG18664\Desktop\EnB\Apache POI\poi-3.16\lib\commons-collections4-4.1.jar"/>
+<listEntry value="C:\Users\AG18664\Desktop\EnB\Apache POI\poi-3.16\lib\commons-logging-1.2.jar"/>
+<listEntry value="C:\Users\AG18664\Desktop\EnB\Apache POI\poi-3.16\lib\junit-4.12.jar"/>
+<listEntry value="C:\Users\AG18664\Desktop\EnB\Apache POI\poi-3.16\lib\log4j-1.2.17.jar"/>
+<listEntry value="C:\Users\AG18664\Desktop\EnB\Apache POI\poi-3.16\ooxml-lib\curvesapi-1.04.jar"/>
+<listEntry value="C:\Users\AG18664\Desktop\EnB\Apache POI\poi-3.16\ooxml-lib\xmlbeans-2.6.0.jar"/>
+<listEntry value="C:\Program Files\IBM\SDP\FunctionalTester\bin\rational_ft.jar"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.rational.test.ft.rational_ft"/>
+<listAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS">
+<listEntry value="-projectpath"/>
+<listEntry value="&quot;C:\Users\AG18664\IBM\rationalsdp\workspace\Member_Enrollment&quot;"/>
+<listEntry value="-datastore"/>
+<listEntry value="&quot;C:\Users\AG18664\IBM\rationalsdp\workspace\Member_Enrollment&quot;"/>
+<listEntry value="-idemailslot"/>
+<listEntry value="wswplugin_*ide*_x1"/>
+<listEntry value="-idetype"/>
+<listEntry value="wswplugin"/>
+<listEntry value="-rt.interactive"/>
+<listEntry value="true"/>
+<listEntry value="-rt.log_format"/>
+<listEntry value="html"/>
+<listEntry value="-log"/>
+<listEntry value="Large_group_Member"/>
+<listEntry value="-iterationcount"/>
+<listEntry value="ALL"/>
+<listEntry value="-rt.log_action"/>
+<listEntry value="false"/>
+<listEntry value="-rt.log_screen_snapshot"/>
+<listEntry value="false"/>
+<listEntry value="-playback"/>
+<listEntry value="Large_group_Member"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Member_Enrollment"/>
+<listAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="C:\Users\AG18664\IBM\rationalsdp\workspace\Member_Enrollment"/>
+</launchConfiguration>

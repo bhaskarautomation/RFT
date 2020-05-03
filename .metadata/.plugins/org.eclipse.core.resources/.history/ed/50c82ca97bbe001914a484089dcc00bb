@@ -1,0 +1,35 @@
+
+import resources.Individual_memberHelper;
+import com.rational.test.ft.*;
+import com.rational.test.ft.object.interfaces.*;
+import com.rational.test.ft.object.interfaces.SAP.*;
+import com.rational.test.ft.object.interfaces.WPF.*;
+import com.rational.test.ft.object.interfaces.dojo.*;
+import com.rational.test.ft.object.interfaces.siebel.*;
+import com.rational.test.ft.object.interfaces.flex.*;
+import com.rational.test.ft.object.interfaces.generichtmlsubdomain.*;
+import com.rational.test.ft.script.*;
+import com.rational.test.ft.value.*;
+import com.rational.test.ft.vp.*;
+import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;
+/**
+ * Description   : Functional Test Script
+ * @author AG18664
+ */
+public class Individual_member extends Individual_memberHelper
+{
+	/**
+	 * Script Name   : <b>Individual_member</b>
+	 * Generated     : <b>Aug 14, 2019 3:20:31 PM</b>
+	 * Description   : Functional Test Script
+	 * Original Host : WinNT Version 10.0  Build 16299 ()
+	 * 
+	 * @since  2019/08/14
+	 * @author AG18664
+	 */
+	public void testMain(Object[] args) 
+	{
+		// TODO Insert code here
+	}
+}
+

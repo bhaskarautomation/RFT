@@ -1,0 +1,95 @@
+﻿<HTML>
+<HEAD>
+<META HTTP-EQUIV="charset" CONTENT="utf-8">
+<TITLE>Playback Log for Large_group_Member</TITLE>
+<STYLE TYPE="text/css">
+<!--
+  table caption {color: darkblue; font-size: x-large; font-weight: bold}
+  td {align: left; font-weight: bold}
+  td.fail {color: darkred; width: 10% }
+  td.warn {color: darkgoldenrod; width: 10% }
+  td.pass {color: darkgreen; width: 10% }
+  td.unkn {color: darkcyan; width: 10% }
+  td.info {width: 10% }
+  td.time {width: 30%; font-weight: normal}
+  td.note {align: left; font-weight: bold}
+  li {font-weight: normal}
+-->
+</STYLE>
+<SCRIPT>
+<!--
+function comparator(logDir,base,exp,act)
+{
+	try{
+		document.ComparatorApplet.startComparatorEx(base,exp,act,logDir);
+	}
+	catch(e){
+		alert("CRFCN0309E: Error creating the verification point display:\nCRFCN0310E: To view the verification point results, an enabled JRE (1.3.1_02 or later) must be associated with the browser");
+	}
+}
+//-->
+</SCRIPT>
+</HEAD>
+<BODY>
+<TABLE WIDTH="100%" border="1" rules="rows" summary="Log events">
+<SCRIPT>
+<!--
+if (self == top)
+	document.write('<CAPTION>Log: Large_group_Member</CAPTION>')
+//-->
+</SCRIPT>
+<TR>
+<TD>&nbsp;</TD>
+<TD CLASS="time">08-Jul-2019 05:15:02.994 PM</TD>
+<TD CLASS="note">Script start [Large_group_Member]</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>line_number = </I>1</LI>
+<LI><I>script_iter_count = </I>0</LI>
+<LI><I>script_name = </I>Large_group_Member</LI>
+<LI><I>script_id = </I>Large_group_Member.java</LI>
+</UL>
+</TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD CLASS="time">08-Jul-2019 05:15:03.057 PM</TD>
+<TD CLASS="note">Start application [Extension for Terminal Applications]</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>name = </I>Extension for Terminal Applications</LI>
+<LI><I>line_number = </I>53</LI>
+<LI><I>script_name = </I>Large_group_Member</LI>
+<LI><I>script_id = </I>Large_group_Member.java</LI>
+<LI><I>startapp_type = </I>EXECUTABLE</LI>
+<LI><I>startapp_executable = </I>javaw.exe</LI>
+<LI><I>startapp_working_directory = </I>C:\Program Files\IBM\SDP\jdk\jre\bin</LI>
+<LI><I>startapp_arguments = </I>-classpath "C:\Program Files\IBM\IBMIMShared\plugins\com.ibm.test.terminal_8.5.0.v20160728_0045\TerminalTester.jar;C:\Program Files\IBM\IBMIMShared\plugins\com.ibm.eNetwork.beans.HOD_11.0.11.201412051053\habeansnlv2.jar;C:\Program Files\IBM\IBMIMShared\plugins\org.eclipse.help.base_4.0.201.v20150204-1700.jar;hasslite.jar;icons.jar;ITLMToolkit.jar;jhall.jar;jlog.jar" com.ibm.terminal.tester.gui.panel.MainTerminalPanel </LI>
+</UL>
+</TD></TR>
+<TR>
+<TD ID="fail0" CLASS="fail">Fail</TD>
+<TD CLASS="time">08-Jul-2019 05:16:00.238 PM</TD>
+<TD CLASS="note">Large_group_Member.enter_text had an unhandled exception.</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>exception_name = </I>java.lang.ArrayIndexOutOfBoundsException</LI>
+<LI><I>exception_message = </I>Array index out of range: 0</LI>
+<LI><I>script_name = </I>Large_group_Member</LI>
+<LI><I>script_id = </I>Large_group_Member.java</LI>
+<LI><I>line_number = </I>327</LI>
+<LI><I>exception_stack = </I>	at Large_group_Member.enter_text(Large_group_Member.java:327)<BR>	at Large_group_Member.testMain(Large_group_Member.java:219)<BR>	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)<BR>	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)<BR>	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)<BR>	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)<BR>	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)<BR>	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)<BR>	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)<BR>	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)<BR>	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)<BR>	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)<BR>	at org.eclipse.core.launcher.Main.main(Main.java:34)<BR></LI>
+</UL>
+</TD></TR>
+<TR>
+<TD CLASS="fail">Fail</TD>
+<TD CLASS="time">08-Jul-2019 05:16:00.238 PM</TD>
+<TD CLASS="note">Script end [Large_group_Member]</TD>
+</TR>
+<TR><TD COLSPAN=3><UL>
+<LI><I>script_name = </I>Large_group_Member</LI>
+<LI><I>script_id = </I>Large_group_Member.java</LI>
+</UL>
+</TD></TR>
+</TABLE>
+</BODY>
+</HTML>
